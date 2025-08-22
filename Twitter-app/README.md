@@ -44,6 +44,3 @@ A modern social media app where you can **tweet, like, comment, and follow frien
 - ☁️ Deployment to cloud platforms like Heroku / Vercel  
 
 
----
-
-💡 *Built with ❤️ using React, Node.js & MongoDB!*  
