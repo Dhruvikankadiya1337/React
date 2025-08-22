@@ -1,4 +1,4 @@
-# 🐦 Twitter Clone App
+#  Twitter Clone App
 
 output : https://drive.google.com/file/d/1nJAK9ouo10YE8frQA0ORIjl70E_U3I5a/view?usp=sharing
 
