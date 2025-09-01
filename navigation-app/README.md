@@ -59,7 +59,3 @@ It is designed to demonstrate **React fundamentals**, **axios for API calls**, *
 - **CSS** - Styling and layout
 - **JSON Server** - Mock backend for products data
 
----
-
-## 📁 Project Structure
-
