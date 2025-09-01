@@ -1,12 +1,65 @@
-# React + Vite
+# 🛍️ Products Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+output-video:
 
-Currently, two official plugins are available:
+## 🌟 Overview
+This is a **React-based Products Project** that displays a collection of products fetched from a JSON server. Users can **view, filter, sort, and navigate through products**. The project also includes features to **add and edit products**, along with a **login page**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is designed to demonstrate **React fundamentals**, **axios for API calls**, **React Router**, **state management using `useState` and `useEffect`**, and **CSS styling**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 🛒 Product Display
+- Fetches products from a local **JSON server**.
+- Displays products in a **responsive grid layout**.
+- Each product card shows:
+  - 🖼️ Product Image
+  - 🏷️ Title
+  - 💲 Price
+- ✨ Hover effects for images and cards for better UI experience.
+
+### 🔍 Filtering & Sorting
+- Filter products by **category** (e.g., men's clothing, women's clothing, electronics, jewelery).
+- Sort products by price:
+  - ⬆️ Low to High
+  - ⬇️ High to Low
+
+### 📝 Product Management
+- ➕ **Add Product**: Add a new product using a simple form.
+- ✏️ **Edit Product**: Edit an existing product's title and description.
+- ✅ Form validations included to ensure proper input.
+
+### 🧭 Navigation
+- **React Router** used for page navigation:
+  - 🛍️ Products Page
+  - 📄 Product Description Page
+  - ➕ Add Product Page
+  - ✏️ Edit Product Page
+  - 🔑 Login Page
+
+### 🔐 Login Page
+- Simple login form with username and password.
+- Styled to match the Products page theme.
+- Placeholder for integrating authentication logic in the future.
+
+### 🎨 UI/UX
+- Clean, modern layout inspired by e-commerce sites.
+- 📱 **Responsive** design for mobile and desktop.
+- ✨ **CSS hover effects**, grid layout, and styled buttons.
+
+---
+
+## 🛠️ Technologies Used
+- **React** - Frontend library
+- **React Router** - Client-side routing
+- **Axios** - API calls to JSON server
+- **React Toastify** - Success/Error notifications
+- **CSS** - Styling and layout
+- **JSON Server** - Mock backend for products data
+
+---
+
+## 📁 Project Structure
+
